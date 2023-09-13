@@ -90,9 +90,9 @@ android {
         }
         release {
             storeFile rootProject.file("app/hello-world-key.keystore")
-            storePassword System.getProperty("APPCENTER_KEYSTORE_PASSWORD")
-            keyAlias System.getProperty("APPCENTER_KEY_ALIAS")
-            keyPassword System.getProperty("APPCENTER_KEY_PASSWORD")
+            storePassword System.getProperty("khalid")
+            keyAlias System.getProperty("khalid")
+            keyPassword System.getProperty("khalid")
         }
     }
     buildTypes {
